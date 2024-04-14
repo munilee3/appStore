@@ -1,0 +1,34 @@
+.app {
+  background-color: #ffffff;
+  margin: 5px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 13px;
+}
+.app-icon {
+  height: 50px;
+  width: 50px;
+}
+.app-name {
+  font-family: 'bree serif';
+  font-weight: 550;
+}
+@media screen and (min-width: 768px) {
+  .app {
+    width: 180px;
+    height: 200px;
+    margin: 10px;
+  }
+  .app-icon {
+    height: 90px;
+    width: 90px;
+  }
+  .app-name {
+    font-size: 25px;
+  }
+}

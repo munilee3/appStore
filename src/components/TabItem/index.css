@@ -1,0 +1,19 @@
+.tabs {
+  margin-right: 10px;
+}
+.tabs-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #7b8794;
+  font-size: 17px;
+  font-weight: 500;
+}
+.active-tab {
+  color: #2563eb;
+  border: none;
+  border-bottom: 2px solid #2563eb;
+  font-size: 17px;
+  font-weight: 550;
+}
